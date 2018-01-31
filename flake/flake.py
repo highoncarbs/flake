@@ -23,7 +23,16 @@ def page(path):
 
 
 if __name__ == "__main__":
+	if len(sys.argv) > 1 and sys.argv[1] == "--help":
+		# Print helper function docs
+
+	# creates local build
 	if len(sys.argv) > 1 and sys.argv[1] == "build":
 		freezer.freeze()
+
+	# Push to github
+	if len(sys.argv) > 1 and sys.argv[1] == "push":
+
+	
 	else:
 		flake.run(debug=True)

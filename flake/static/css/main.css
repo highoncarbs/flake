@@ -121,6 +121,7 @@ h4{
 	background-color: none;
 	color: #762cb3;
 
+
 }
 
 .xnavbar a{
@@ -128,8 +129,9 @@ h4{
 	border: none;
 	padding: 0;
 	font-family: 'Work sans' , sans-serif;
-	font-weight: 600;
+
 	color: #762cb3;
+	font-weight: 400
 }
 
 .roll{
@@ -147,4 +149,17 @@ h4{
 	color: #762cb3;
 	font-weight: 600;
 
+}
+
+footer{
+	display: inline-block;
+	margin-top: 20px;
+	padding-top: 10px;	
+	font-family: 'Work sans' , sans-serif;
+	color: #762cb3;
+	border-bottom: 1px solid rgba(118, 44, 179, 0.3); 
+}
+
+footer a{
+	font-family: 'Eczar' , serif;
 }
