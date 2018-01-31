@@ -14,7 +14,10 @@ freezer = Freezer(flake)
 
 @flake.route('/')
 def index():
-	return render_template('index.html' , pages = pages),200
+	posts = [page for page in pages if 'date' in page.meta]
+    # Sort pages by date
+	sorted_posts = sorted(posts, reverse=True,key=lambda page: page.meta['date'])
+	return render_template('index.html' , pages = sorted_posts),200
 
 @flake.route('/<path:path>/')
 def page(path):
@@ -25,14 +28,14 @@ def page(path):
 if __name__ == "__main__":
 	if len(sys.argv) > 1 and sys.argv[1] == "--help":
 		# Print helper function docs
-
+		pass
 	# creates local build
 	if len(sys.argv) > 1 and sys.argv[1] == "build":
 		freezer.freeze()
 
 	# Push to github
 	if len(sys.argv) > 1 and sys.argv[1] == "push":
+		pass
 
-	
 	else:
 		flake.run(debug=True)

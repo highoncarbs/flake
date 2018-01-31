@@ -15,11 +15,34 @@ h2 , h3 {
 }
 h4{
 	font-family: 'Eczar' , sans-serif;
-	font-weight: 00;
 	color: #762cb3;
 
 }
 
+.nav{
+	color: #762cb3;
+	font-family: 'Eczar' ,serif;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
+.nav li{
+display: inline-block;
+padding:5px;
+padding-left: 0;
+}
+
+.nav a{
+	text-decoration: underline;
+		color: #762cb3;
+
+}
+
+.nav a:hover{
+	text-decoration: none;
+	color: #762cb3;
+	
+}
 .workls{
 	margin-top:20px;
 }
@@ -39,7 +62,7 @@ h4{
 }
 
 .blogls{
-		padding-left:10px;
+		/*paddinsg-left:10px;*/
 }
 
 .blogls a{
@@ -134,7 +157,7 @@ h4{
 	font-weight: 400
 }
 
-.roll{
+.blog{
 	margin-top: 50px;
 }
 
@@ -153,8 +176,8 @@ h4{
 
 footer{
 	display: inline-block;
-	margin-top: 20px;
-	padding-top: 10px;	
+	/*margin-top: 50px;*/
+	padding-top: 50px;	
 	font-family: 'Work sans' , sans-serif;
 	color: #762cb3;
 	border-bottom: 1px solid rgba(118, 44, 179, 0.3); 

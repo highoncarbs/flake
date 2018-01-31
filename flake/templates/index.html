@@ -19,7 +19,7 @@
 					</h2>
 					<div class=" workls columns is-6 is-multiline">
 
-						<div class="work-m column is-one-half-desktop">
+						<div class="work-m column is-one-half-tablet">
 							<p class="wrk is-size-6">PROJECT - COMPLETED</p>
 							<br>
 							<h3 class="is-size-3 "><a class="plnk" href="#">Shorty</a>:</h3>
@@ -117,22 +117,39 @@
 							<a class="is-size-5 nbtn read" href="">Read all <i class="material-icons" >keyboard_arrow_right</i></a>
 						</div>
 
+						<div id="un" class="work-m column is-one-half-desktop">
+							<p class="wrk is-size-6">PROJECT - CURRENTLY BUILDING</p>
+							<br>
+							<h3 class="is-size-3 "><a class="plnk" href="#">AwesomeSpeakers</a>:</h3>
+							<h4 class="is-size-3 ">Smart IoT Speakers</h4>
+							<br>
+							<br>	
+							<p class="is-size-4">Smart speaker system built with Raspberry Pi and flask.</p>
+							<br>
+							<br>
+							<br>
+							<a class="is-size-5 nbtn read" href="">Read all <i class="material-icons" >keyboard_arrow_right</i></a>
+						</div>
+
 					</div>
 				</div>
 				<!-- Thoughts -->
-				<div class="column blog is-half ">
+				
+			</div>
+			<div class="blog columns ">
+				<div class="column is-half-tablet">
 					<h2 class="is-size-4" style="margin-bottom: 25px;">
 						Thoughts
 					</h2>
 
 					{% for page in pages %}
 
-					<div class="columns blogls">
+					<div class="columns blogls is-multiline">
 						
-						<div class="column date is-one-quarter">
+						<div class="column date is-one-quarter-desktop">
 							<p class="date is-size-5">{{ page.date }}</p>
 						</div>
-						<div class="column is-three-quarter post">
+						<div class="column is-three-quarters-desktop post">
 							<h3 class="is-size-4"><a href="{{ url_for('page' , path=page.path )}}">{{ page.title }}</a></h3>
 						</div>
 						
@@ -140,6 +157,6 @@
 					{% else %}
 								<h3 class="is-size-4">No current thoughts.</h3>
 						{% endfor %}
+					</div>
 				</div>
-			</div>
 {% endblock content %}
