@@ -1,0 +1,8 @@
+title: Hello World
+date: 31 Jan 2018
+
+This past week has found me working on a brand new Rails project. Now, if I was building this project for my personal needs, I would without a doubt deploy it to Heroku – for both the ease of use and the high level of abstraction that Dynos afford. But I'm not building this for myself, I'm building it for my team.
+
+*While* `Heroku` *is* easy to get started with, costs scale up quickly. And, as described in our 2017 tech stack post, our team is moving more and more towards Kubernetes. I had almost no experience with Kubernetes before last week, and I was intimidated by the Kubernetes web UI. With some help from my colleague Isac, who wrote the Hokusai tool, I was able to get a staging environment up and running in under a day.
+
+**But let's step back first.**

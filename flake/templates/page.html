@@ -1,0 +1,15 @@
+{% extends 'base.html' %}
+{% block content %}
+	<div class="xnavbar is-size-6">
+		<p><a href="{{ url_for('index') }}"><i class="material-icons">keyboard_arrow_left</i> To Index </a></p>
+	</div>
+	<div class="roll ">
+		<p class="date is-size-6">{{ page.date }}</p>
+		<h2 class="is-size-3" >{{ page.title }}</h2>
+		<div class="content  columns ">
+			<div class="column is-one-third is-size-6">
+		    {{ page.html|safe }}
+		</div>
+		</div>
+	</div>
+{% endblock content %}

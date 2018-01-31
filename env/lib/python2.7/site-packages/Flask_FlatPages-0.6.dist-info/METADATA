@@ -1,0 +1,55 @@
+Metadata-Version: 2.0
+Name: Flask-FlatPages
+Version: 0.6
+Summary: Provides flat static pages to a Flask application
+Home-page: https://github.com/SimonSapin/Flask-FlatPages
+Author: Simon Sapin
+Author-email: simon.sapin@exyr.org
+License: BSD
+Platform: any
+Classifier: Environment :: Web Environment
+Classifier: Intended Audience :: Developers
+Classifier: License :: OSI Approved :: BSD License
+Classifier: Operating System :: OS Independent
+Classifier: Programming Language :: Python
+Classifier: Topic :: Internet :: WWW/HTTP :: Dynamic Content
+Classifier: Topic :: Software Development :: Libraries :: Python Modules
+Classifier: Programming Language :: Python :: 2
+Classifier: Programming Language :: Python :: 2.6
+Classifier: Programming Language :: Python :: 2.7
+Classifier: Programming Language :: Python :: 3
+Classifier: Programming Language :: Python :: 3.3
+Classifier: Programming Language :: Python :: 3.4
+Classifier: Programming Language :: Python :: Implementation :: PyPy
+Requires-Dist: Flask (>=0.8)
+Requires-Dist: PyYAML (>=3.10)
+Requires-Dist: Markdown (>=2.3.1)
+Provides-Extra: tests
+Requires-Dist: Pygments (>=1.6); extra == 'tests'
+
+===============
+Flask-FlatPages
+===============
+
+.. image:: https://secure.travis-ci.org/SimonSapin/Flask-FlatPages.png?branch=master
+    :target: https://travis-ci.org/SimonSapin/Flask-FlatPages
+
+.. image:: https://pypip.in/v/Flask-FlatPages/badge.png
+    :target: https://pypi.python.org/pypi/Flask-FlatPages
+
+Provides flat static pages to a Flask_ application, based on text files
+as opposed to a relational database.
+
+* Works on Python 2.6, 2.7 and 3.3+
+* BSD licensed
+* Latest documentation `on Read the Docs`_
+* Source, issues and pull requests `on Github`_
+* Releases `on PyPI`_
+* Install with ``pip install Flask-FlatPages``
+
+.. _Flask: http://flask.pocoo.org/
+.. _on Read the Docs: http://flask-flatpages.readthedocs.org/
+.. _on Github: https://github.com/SimonSapin/Flask-FlatPages/
+.. _on PyPI: http://pypi.python.org/pypi/Flask-FlatPages
+
+
