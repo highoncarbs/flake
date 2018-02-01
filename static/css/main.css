@@ -176,14 +176,6 @@ padding-left: 0;
 
 }
 
-.content a{
-	font-weight: 600;
-	text-decoration: underline;
-	color: #762cb3;
-}
-.content a:hover{
-		text-decoration: none;	
-}
 footer{
 	display: inline-block;
 	/*margin-top: 50px;*/
