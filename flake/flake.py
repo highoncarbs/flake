@@ -1,14 +1,12 @@
+#!/usr/bin/env python
+
 from flask import Flask , render_template
 from flask_flatpages import FlatPages
 from flask_frozen import Freezer
 import sys
 
-DEBUG = True
-FLATPAGES_AUTO_RELOAD = DEBUG
-FLATPAGES_EXTENSION = '.md'
-
 flake = Flask(__name__)
-flake.config.from_object(__name__)
+flake.config.from_pyfile('config.py')
 pages = FlatPages(flake)
 freezer = Freezer(flake)
 
@@ -25,17 +23,3 @@ def page(path):
 	return render_template('page.html' , page = page)
 
 
-if __name__ == "__main__":
-	if len(sys.argv) > 1 and sys.argv[1] == "--help":
-		# Print helper function docs
-		pass
-	# creates local build
-	if len(sys.argv) > 1 and sys.argv[1] == "build":
-		freezer.freeze()
-
-	# Push to github
-	if len(sys.argv) > 1 and sys.argv[1] == "push":
-		pass
-
-	else:
-		flake.run(debug=True)
