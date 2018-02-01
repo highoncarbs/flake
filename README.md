@@ -12,8 +12,8 @@ Easy to deploy to github pages or VMs.
 * Example blog-aware theme.
 
 ## Roadmap for 0.2
-- [] Github and Digital Ocean Integration
-- [] Convert to CLI application
+- [ ] Github and Digital Ocean Integration
+- [ ] Convert to CLI application
 
 ## Contributing
 
