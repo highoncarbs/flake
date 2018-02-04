@@ -13,7 +13,7 @@ Easy to deploy to github pages or VMs.
 
 ## Roadmap for 0.2
 - [ ] Github and Digital Ocean Integration
-- [ ] Convert to CLI application
+- [x] Convert to CLI application
 
 ## Contributing
 

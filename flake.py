@@ -4,7 +4,6 @@ from flake.flake import *
 import datetime
 import os
 import errno
-import git
 
 if __name__ == '__main__':
 
@@ -47,9 +46,9 @@ if __name__ == '__main__':
     # Update flake from base repo
     if len(sys.argv) > 1 and sys.argv[1] == "update":
         # Needs fixing
-        git_dir = "./"
-        g = git.cmd.Git(git_dir)
-        g.pull()
+        # git_dir = "./"
+        # g = git.cmd.Git(git_dir)
+        # g.pull()
 
     if len(sys.argv) > 1 and sys.argv[1] == "run":
         '''
