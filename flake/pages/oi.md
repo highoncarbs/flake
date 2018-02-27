@@ -1,4 +1,4 @@
-title: Oi! 
+title: Let's work it out 
 date: 1 Feb 2018
 
 This past week has found me working on an old abandoned idea , a static-site generator built using flask with Digital Ocean and Github integration.
