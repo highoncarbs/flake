@@ -44,7 +44,7 @@ if __name__ == '__main__':
             f.write("title: " + title + "\ndate: " + now + "\n\nWrite here.")
 
     # Update flake from base repo
-    if len(sys.argv) > 1 and sys.argv[1] == "update":
+    #if len(sys.argv) > 1 and sys.argv[1] == "update":
         # Needs fixing
         # git_dir = "./"
         # g = git.cmd.Git(git_dir)
@@ -54,8 +54,8 @@ if __name__ == '__main__':
         '''
         Runs a local server with website
         '''
-        port = int(sys.argv[2])
-        flake.run(debug=False , port = port)
+        #port = int(sys.argv[2])
+        flake.run(debug=False , port = 5000)
 
     if len(sys.argv) > 1 and sys.argv[1] == "run" and sys.argv[2] == "debug":
         '''

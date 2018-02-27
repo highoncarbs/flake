@@ -1,0 +1,20 @@
+{% extends 'base.html' %}
+{% block content %}
+	<div class="xnavbar is-size-5">
+		<p><a href="{{ url_for('index') }}"><i class="material-icons">keyboard_arrow_left</i> TO HOME </a></p>
+	</div>
+	<div class="roll animated fadeIn">
+		<p class="date is-size-5">{{ page.date }}</p>
+		<h2 class="is-size-3" >{{ page.title }}</h2>
+		<div class="content  columns ">
+			<div class="column is-half-tablet is-size-5">
+		    {{ page.html|safe }}
+		</div>
+
+		</div>
+		<div class="share columns is-one-third is-size-5">
+			
+		</div>
+		
+	</div>
+{% endblock content %}

@@ -1,0 +1,198 @@
+body{
+	margin: 4vw;
+}
+h1{
+	font-family: 'Eczar' , serif;
+	font-weight: 600;
+	color: #762cb3;
+}
+
+h2 , h3 {
+	font-family: 'Eczar' , sans-serif;
+	font-weight: 600;
+	color: #762cb3;
+	/*text-decoration: underline;*/
+}
+h4{
+	font-family: 'Eczar' , sans-serif;
+	color: #762cb3;
+
+}
+
+.nav{
+	color: #762cb3;
+	font-family: 'Eczar' ,serif;
+	font-weight: 600;
+	margin-bottom: 30px;
+}
+
+.nav li{
+display: inline-block;
+padding:5px;
+padding-left: 0;
+}
+
+.nav a{
+	text-decoration: underline;
+		color: #762cb3;
+
+}
+
+.nav a:hover{
+	text-decoration: none;
+	color: #762cb3;
+	
+}
+.workls{
+	margin-top:20px;
+}
+
+.intro a{
+	color: #0f6;
+	text-decoration: underline;
+	}
+
+.intro a:hover{
+	color: #0f6;
+	text-decoration: none;
+}
+
+.more{
+	margin-top: 30px;
+}
+
+.blogls{
+		/*paddinsg-left:10px;*/
+}
+
+.blogls a{
+	color: #762cb3;
+	text-decoration: underline;
+}
+
+.blogls a:hover{
+	color: #762cb3;
+	text-decoration: none;
+}
+
+.date{
+	font-family: 'Work Sans' , sans-serif;
+	font-weight: 400;
+	opacity: 0.8;
+}
+.nbox{
+	margin-top:40px;
+}
+
+.alnk{
+	font-weight: 600;
+}
+.plnk{
+	color: #762cb3;
+	text-decoration: underline;
+	font-weight: 700;
+}
+
+.plnk a{
+	text-decoration: underline;
+
+}
+.nbtn{
+		text-decoration: none;
+		font-family: 'Work Sans' , sans-serif;
+		text-align: center;
+	}
+
+.work-m{
+	position: relative;
+	padding: 40px;
+	padding-top:50px;
+	padding-bottom:50px;
+	background-color:#fff8dc;
+	color: #762cb3;
+	display: block;
+	margin: 10px;
+}
+
+
+.work-m a{
+	border: none;
+	color: #762cb3;
+}
+
+.work-m p{
+	font-family: 'Work Sans' , sans-serif;
+
+}
+
+#un{
+	background-color:#f0f8ff;
+}
+
+.read{
+	position: absolute;
+  bottom: 20px;
+}
+.material-icons{
+	vertical-align: middle;
+    display: inline-flex;
+        padding-bottom: 2px;
+}
+
+.xnavbar a:hover{
+	text-decoration: none;	
+	background-color: none;
+	color: #762cb3;
+
+
+}
+
+.xnavbar a{
+	display: inline-block;
+	border: none;
+	padding: 0;
+	font-family: 'Work sans' , sans-serif;
+
+	color: #762cb3;
+	font-weight: 400
+}
+.xnavbar{
+	margin-bottom: 40px;
+}
+.blog{
+	margin-top: 50px;
+}
+
+.content{
+	color: #762cb3;
+	font-family: 'Work sans' , sans-serif;
+	margin-top:20px;
+
+}
+
+.content p strong{
+	color: #762cb3;
+	font-weight: 600;
+
+}
+
+.content a{
+	font-weight: 600;
+	text-decoration: underline;
+	color: #762cb3;
+}
+.content a:hover{
+		text-decoration: none;	
+}
+footer{
+	display: inline-block;
+	/*margin-top: 50px;*/
+	padding-top: 50px;	
+	font-family: 'Work sans' , sans-serif;
+	color: #762cb3;
+	border-bottom: 1px solid rgba(118, 44, 179, 0.3); 
+}
+
+footer a{
+	font-family: 'Eczar' , serif;
+}

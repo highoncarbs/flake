@@ -1,6 +1,6 @@
 {% extends 'base.html' %}
 {% block content %}
-	<nav class="navbar is-fixed-top animated fadeIn">
+	<nav class="navbar is-fixed-top ">
 		<div class="navbar-start">
 						<div class="navbar-item is-black"><a href="{{url_for('index')}}">{{username}}</a></div>
 					</div>
@@ -15,18 +15,16 @@
 				<div class="hero-body ">
 
 					<div class="blogls">
-		
-					{% for page in pages %}
-						<div class="b-link animated fadeIn">
-						<h3 class="is-size-3 is-fullwidth"><a href="{{ url_for('page' , path=page.path )}}">{{ page.title }}</a></h3>
+					<h3 class="is-size-3" >{{ about.title }}</h3>
+					<div class="content">
+						<div class="is-size-5">
+					    {{ about.html|safe }}
 					</div>
 					
-					{% else %}
-								<h3 class="is-size-3">No current thoughts.</h3>
-					{% endfor %}
 					</div>
 					</div>
 			</div>
+		</div>
 
 		<nav class="navbar is-fixed-bottom animated fadeIn">
 		<div class="navbar-start">
@@ -39,12 +37,10 @@
 			<div class="navbar-item"><a href="{{github}}">Twitter</div>
 
 			<div class="navbar-item"><a href="{{facebook}}">Twitter</div>
-
-
 		</div>
 		<div class="navbar-end">
 
-			<div class="navbar-item" >BUILT WITH <a style="font-weight: 600;padding-left: 7px;display: inline-block;" href="https://github.com/padamsethia/flake">flake</a><div>
+			<div class="navbar-item" >BUILT WITH   <a style="font-weight: 600;display: inline-block;" href="https://github.com/padamsethia/flake">  flake</a>.<div>
 		</div>
 		</nav>
 {% endblock content %}

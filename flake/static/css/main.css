@@ -44,7 +44,6 @@ margin: 70px auto;
 font-family: 'Karla', sans-serif;
 	font-weight: 900;
 	color: black;
-	padding: 10px;
 		padding-top: 10px;
 		padding-bottom: 10px;
 
@@ -64,18 +63,20 @@ font-family: 'Karla', sans-serif;
 
 }
 
-.blogls a::after{
-	content: '';
-    display: block;
-    height: 5px;
-    position: absolute;
-    top: 50%;
-    width: 0;
-    pointer-events: none;
-    -webkit-transition: all .2s cubic-bezier(.15,.9,.34,.95);
-    transition: all .2s cubic-bezier(.15,.9,.34,.95);
+.content{
+	padding-top: 50px;
 }
 
-.blogls a::after{
-	background: #ffdd00;
+.date{
+	color: rgb(74, 74, 74);
+}
+
+a{
+	color: black !important;
+		transition: 0.1s all ease;
+
+}
+
+a:hover{
+	opacity: 0.4;
 }
