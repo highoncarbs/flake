@@ -1,5 +1,11 @@
 <p align="center">
 <img src="./assets/flake.png">
+   <br>
+   <br>
+<img src="https://img.shields.io/badge/License-GPL%20v3-blue.svg"/>
+<img src="https://img.shields.io/david/expressjs/express.svg" />
+<img src="https://img.shields.io/badge/Python-2.7-green.svg" />
+ 
 </p>
 
 flake is a simple blog-aware static site generator perfect for personal, project, or organization sites. It's like a file based CMS without the complexity of databases.
