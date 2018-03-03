@@ -30,11 +30,11 @@ def page(path):
     info.meta
     return render_template('page.html' , page = page ,username = info['name'] , desc = info['desc'], facebook = info['facebook'] , twitter = info['twitter'], github = info['github'], dribble = info['dribble'])
 
-@flake.route('/about.html')
+@flake.route('/about')
 def about():
     about = pages.get('about')
     about.meta
     info = pages.get('info')
     info.meta
-    return render_template('about.html',page = about , username = info['name'] ,
+    return render_template('about.html' , page = about , username = info['name'] ,
      desc = info['desc'] , facebook = info['facebook'] , twitter = info['twitter'], github = info['github'], dribble = info['dribble'] ),200
